@@ -1,6 +1,6 @@
 <!--mon en tête -->
-<div class="row" style="padding: 10px ; background-color: beige">
-  <div class="btn-toolbar" role="toolbar" aria-label="">
+<div class="row" style="padding: 10px ; background-color: white;">
+  <div class="btn-toolbar" role="toolbar" aria-label="" style="position: relative ;">
     <div class="btn-group" role="group" aria-label="">
       <button type="button" class="btn btn-primary">A propos</button>
       <button type="button" class="btn btn-primary">Localiser</button>
@@ -17,7 +17,7 @@
 <div class="container" >
   <div class="row" >
     <!--mon interface d'enregistrement -->
-    <div class="col-sm" style="padding: 10px; opacity:0.80">
+    <div class="col-sm" style="padding: 10px; background-color: white;">
       
       <div class="alert alert-success" role="alert">
         <h6 class="alert-heading"> Déclarez vos objets et vous les retrouvez en cas de perte</h6>
@@ -81,21 +81,32 @@
             </tbody>
         </table>
   
-         
-        
         
       </div>
       
     </div>
 
     <!-- mon interface de presentation du site -->
-    <div class="col-sm" style="padding: 10%; background-color: beige">
-      <p><img src="../assets/images/imglocator2.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=""></p> 
-      <input type="search" name="" id="">
+    <div class="col-sm" style="padding: 10%; background-color: white;">
+      <p><img src="../assets/images/imagelocator3.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=""></p> 
+      <nav class="navbar navbar-light bg-light">
+      
+      
+      <span class="label label-warning">Retrouvez votre téléphone</span>
+      
+      
+      <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Saisisez EMEI valide " aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      </nav>
+      
+      
     </div>
     <!--mon pied de page --> 
-    <div class="row-sm" style="padding: 10%; border: solid; background-color: beige">
+    <div class="row-sm" style="padding: 10%; opacity:0.80">
       <p>exercez vous</p> 
+      
       
     </div>
   </div>
